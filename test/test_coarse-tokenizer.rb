@@ -393,7 +393,7 @@ class TestCoarseTokenizer < Test::Unit::TestCase
   end
   
 
-  def test_string_escape
+  def test_string_escape_1
     msg = "string_escape"
 
     ########
@@ -410,6 +410,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_string_escape_2
+    msg = "string_escape"
 
     ########
     assert_equals(
@@ -425,6 +429,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_string_escape_3
+    msg = "string_escape"
 
     ########
     assert_equals(
@@ -440,6 +448,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_string_escape_4
+    msg = "string_escape"
 
     ########
     assert_equals(
