@@ -328,7 +328,7 @@ class TestCoarseTokenizer < Test::Unit::TestCase
   end
   
 
-  def test_comment_in_string
+  def test_comment_in_string_1
     msg = "comment_in_string - "
 
     ########
@@ -345,6 +345,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_comment_in_string_2
+    msg = "comment_in_string - "
 
     ########
     assert_equals(
@@ -360,6 +364,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_comment_in_string_3
+    msg = "comment_in_string - "
 
     ########
     assert_equals(
@@ -375,6 +383,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_comment_in_string_4
+    msg = "comment_in_string - "
 
     ########
     assert_equals(
