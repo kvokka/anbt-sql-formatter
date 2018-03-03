@@ -61,7 +61,7 @@ class TestCoarseTokenizer < Test::Unit::TestCase
   end
   
 
-  def test_tokenize
+  def test_tokenize_1
     msg = "tokenize - "
 
     assert_equals(
@@ -77,6 +77,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_tokenize_2
+    msg = "tokenize - "
                  
     ########
     assert_equals(
@@ -93,6 +97,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_tokenize_3
+    msg = "tokenize - "
 
     ########
     assert_equals(
@@ -109,6 +117,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_tokenize_4
+    msg = "tokenize - "
 
     ########
     assert_equals(
@@ -127,6 +139,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_tokenize_5
+    msg = "tokenize - "
 
     ########
     assert_equals(
@@ -144,6 +160,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_tokenize_6
+    msg = "tokenize - "
 
     ########
     assert_equals(
