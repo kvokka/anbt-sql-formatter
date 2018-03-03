@@ -163,7 +163,7 @@ class TestCoarseTokenizer < Test::Unit::TestCase
   end
 
 
-  def test_string_in_string
+  def test_string_in_string_1
     msg = "string_in_string"
 
     ########
@@ -180,6 +180,10 @@ class TestCoarseTokenizer < Test::Unit::TestCase
         EOB
       )))
     )
+  end
+
+  def test_string_in_string_2
+    msg = "string_in_string"
 
     ########
     assert_equals(
